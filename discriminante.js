@@ -12,6 +12,10 @@ function numeroAbsoluto(numero)
         {
             numero = numero * -1;
         }
+        else if(numero == 0)
+        {
+            console.log('Numero ingresado es 0 ');
+        }
         console.log('Numero Absoluto: '+numero);
         return numero;
     }
