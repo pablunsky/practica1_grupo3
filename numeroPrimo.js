@@ -1,5 +1,5 @@
 function esPrimo(numero){
-    if(numero<2 ||isNaN()){
+    if(numero<2 ||isNaN(numero)){
         console.log("Ingrese un valor valido");
         return false;
     }
