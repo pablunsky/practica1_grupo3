@@ -12,13 +12,19 @@ function numeroAbsoluto(numero)
     if(!isNaN(numero))
     {
         console.log('Numero Ingresado: '+numero)
-        if(numero < 0)
+        if(numero > 0)
         {
+            console.log('Numero ingresado positivo');
+            numero = numero * -1;
+        }
+        else if(numero < 0)
+        {
+            console.log('Numero ingresado es negativo');
             numero = numero * -1;
         }
         else if(numero == 0)
         {
-            console.log('Numero ingresado es 0 ');
+            console.log('Numero ingresado es 0');
         }
         console.log('Numero Absoluto: '+numero);
         return numero;
