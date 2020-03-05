@@ -3,6 +3,7 @@ function potenciaCubo(valor) {
 }
 
 function raizCubica(valor) {
-  if(valor < 0) return 'No se aceptan numeros negativos.';
-  return Math.pow(valor, 1/3);
+  if(valor < 0) return { mensaje: 'No se aceptan numeros negativos.', valor: NaN};
+  const raiz3 = Math.pow(valor, 1/3)
+  return { mensaje: `La raiz ${valor % raiz3 == 0 ? '': 'no '}es exacta.`, valor: raiz3};;
 }
