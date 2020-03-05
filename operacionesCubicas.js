@@ -3,5 +3,6 @@ function potenciaCubo(valor) {
 }
 
 function raizCubica(valor) {
+  if(valor < 0) return 'No se aceptan numeros negativos.';
   return Math.pow(valor, 1/3);
 }
