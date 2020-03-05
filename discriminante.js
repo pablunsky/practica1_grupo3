@@ -1,10 +1,11 @@
-function disc(a, b, c) {
-    if(isNaN(a) || isNaN(b) || isNaN(c)) { 
+function disc(a, b, c, err) {
+    if(isNaN(a) || isNaN(b) || isNaN(c) || isNaN(err)) { 
         console.log('Las valores deben ser numeros positivos');
         return -1;
     }
-    const dis = Math.pow(b,2) - (4*a*c);
-    return dis;
+    const linf = Math.pow(b,2) - (4*a*c) - inf;
+    const lsup = Math.pow(b,2) - (4*a*c) + inf;
+    return {inferior: linf, superior: lsup};
 }
 
 function numeroAbsoluto(numero)
