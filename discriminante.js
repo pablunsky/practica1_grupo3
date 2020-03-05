@@ -1,4 +1,8 @@
 function disc(a, b, c) {
+    if(isNaN(a) || isNaN(b) || isNaN(c)) { 
+        console.log('Las valores deben ser numeros positivos');
+        return -1;
+    }
     const dis = Math.pow(b,2) - (4*a*c);
     return dis;
 }
