@@ -24,4 +24,5 @@ function numeroAbsoluto(numero)
         console.log('El Valor ingresado no es un numero');
         return 0;
     } 
+    
 }
