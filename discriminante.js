@@ -9,7 +9,7 @@ function disc(a, b, c, err) {
 }
 
 function numeroAbsoluto(numero)
-{
+{ 
     if(!isNaN(numero))
     {
         console.log('Numero Ingresado: '+numero)
