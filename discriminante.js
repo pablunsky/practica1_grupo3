@@ -8,7 +8,7 @@ function disc(a, b, c, err) {
     return {inferior: linf, superior: lsup};
 }
 
-function numeroAbsoluto(numero)
+function numeroAbsoluto( numero )
 {
     if(!isNaN(numero))
     {
