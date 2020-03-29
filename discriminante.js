@@ -7,7 +7,7 @@ function numeroAbsoluto(numero)
 {
     if(!isNaN(numero))
     {
-        console.log('Numero Ingresado: '+numero)
+        console.log('Numero Ingresado: ',numero)
         if(numero < 0)
         {
             numero = numero * -1;
@@ -16,7 +16,7 @@ function numeroAbsoluto(numero)
         {
             console.log('Numero ingresado es 0 ');
         }
-        console.log('Numero Absoluto: '+numero);
+        console.log('Numero Absoluto: ',numero);
         return numero;
     }
     else
