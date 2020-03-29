@@ -5,7 +5,7 @@ function disc(a, b, c, err) {
     }
     const linf = Math.pow(b,2) - (4*a*c) - inf;
     const lsup = Math.pow(b,2) - (4*a*c) + inf;
-    return {inferior: linf, superior: lsup};
+    return {inferior: linf, superior : lsup};
 }
 
 function numeroAbsoluto(numero)
@@ -34,7 +34,7 @@ function numeroAbsoluto(numero)
     {
         console.log('El Valor ingresado no es un numero');
 
-        
+
         return false;
     } 
 }
