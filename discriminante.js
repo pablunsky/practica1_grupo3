@@ -2,6 +2,7 @@ function disc(a, b, c, err) {
     if(isNaN(a) || isNaN(b) || isNaN(c) || isNaN(err)) { 
         console.log('Las valores deben ser numeros positivos');
         return -1;
+    	//COMENTARIO 201603191
     }
     // Comentario calificacion 201504427
     // Comentario 201503869
