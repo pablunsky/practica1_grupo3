@@ -13,6 +13,8 @@ function disc(a, b, c, err) {
     return {inferior: linf, superior : lsup};
 }
 
+//comentario 201314761
+
 function numeroAbsoluto(numero)
 { 
     if(!isNaN(numero))
