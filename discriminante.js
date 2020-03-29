@@ -33,6 +33,8 @@ function numeroAbsoluto(numero)
     else
     {
         console.log('El Valor ingresado no es un numero');
+
+        
         return false;
     } 
 }
