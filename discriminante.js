@@ -19,7 +19,7 @@ function numeroAbsoluto(numero)
             numero = numero * -1;
         }
         else if(numero < 0)
-        {
+        { 
             console.log('Numero ingresado es negativo');
             numero = numero * -1;
         }
