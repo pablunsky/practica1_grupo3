@@ -4,6 +4,7 @@ function disc(a, b, c, err) {
         return -1;
     }
     // Comentario calificacion 201504427
+    // Comentario 201503869
     const linf = Math.pow(b,2) - (4*a*c) - inf;
     const lsup = Math.pow(b,2) - (4*a*c) + inf;
     return {inferior: linf, superior : lsup};
