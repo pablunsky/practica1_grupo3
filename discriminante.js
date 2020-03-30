@@ -14,7 +14,7 @@ function disc(a, b, c, err) {
 }
 
 //comentario 201314761
-
+// comentario 201503421
 function numeroAbsoluto(numero)
 { 
     if(!isNaN(numero))
